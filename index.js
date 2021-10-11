@@ -56,7 +56,7 @@ Client.on("message", async message => {
         .setTitle("Change Log")
         .setColor("RED")
         .addField("Version:", "ALPHA 1.3")
-        .addField("What's new? ", "Delete level command")
+        .addField("What's new? ", "Delete level feature.")
         message.channel.send(embed)
     }
 })
